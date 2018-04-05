@@ -1,0 +1,56 @@
+
+/* 20 March start code  */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,span,i,p,label,div,a,b,strong,button {
+    font-family: 'Raleway', sans-serif;
+}
+
+#basiccontactform {
+
+}
+
+#basiccontactform .form-control, #applicationform .form-control {
+    box-shadow: inset 0px 0px 17px -2px #ccc;
+    height: 40px;
+    font-size: 15px;   
+}
+
+#basiccontactform button.btn-theme, #applicationform button.btn-theme, #myModal button.btn-theme {  
+    padding: 10px 16px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+} 
+
+h3#selectedcousreheading {
+    margin-bottom: 30px;
+}
+
+#basiccontactform label {
+    font-size: 16px;              
+}
+
+#basiccontactform label.error {
+    color: red;
+    font-size: 15px;
+    font-weight: normal;   
+}
+
+#applicationform .panel-group .panel+.panel {
+    margin-bottom: 30px;
+}
+
+#applicationform .select2-selection__rendered {
+    display: none;
+}
+
+
+
+
+/* 20 March end code  */
